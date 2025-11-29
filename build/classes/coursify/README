@@ -1,0 +1,52 @@
+# 📦 Cara Setup Database & MySQL Connector untuk Project **Coursify**
+
+---
+
+## 🖥️ 1. Menjalankan XAMPP
+
+1. Buka **XAMPP Control Panel**.
+2. Klik **Start** pada:
+   - Apache
+   - MySQL
+
+Pastikan kedua layanan berjalan (berwarna hijau).
+
+---
+
+## 🗄️ 2. Membuka phpMyAdmin
+
+1. Buka browser.
+2. Akses URL berikut: http://localhost/phpmyadmin
+
+---
+
+## 🧰 3. Membuat Database dari File SQL
+
+1. Di phpMyAdmin, klik tab **SQL** (menu bagian atas).
+2. Buka file: coursify_database.sql
+3. Copy seluruh isi file tersebut.
+4. Paste ke kolom SQL di phpMyAdmin.
+5. Klik tombol **Go** atau **Kirim**.
+6. Tunggu sampai muncul pesan **Success**.
+
+Database berhasil dibuat.
+
+---
+
+## 🔌 4. Menambahkan MySQL Connector ke Project Java
+
+1. Klik kanan pada project **bimbel2**.
+2. Pilih **Properties**.
+3. Pada menu kiri, klik **Libraries**.
+4. Klik tombol **Add JAR/Folder**.
+5. Cari dan pilih file: mysql-connector-j-9.5.0.jar
+6. Klik **Open**.
+7. Klik **OK**.
+
+MySQL Connector berhasil ditambahkan ke project.
+
+---
+
+## ✅ Selesai
+
+Setelah semua langkah di atas dilakukan, project **bimbel2** sudah siap terhubung ke database MySQL.
