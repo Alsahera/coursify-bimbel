@@ -2,7 +2,7 @@
 
 Aplikasi desktop berbasis Java untuk mengelola bimbingan belajar dengan fitur lengkap manajemen siswa, tutor, jadwal, nilai, dan pembayaran.
 
-> **📚 Project**: UAS Semester 3 - Mata Kuliah Pemrograman Berorientasi Objek (PBO)
+> **📚 Project**: UAS Semester 3 - Mata Kuliah Praktik Pemrograman Berorientasi Objek
 
 ## 🎯 Fitur Utama
 
